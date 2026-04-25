@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Batool",
+      "lastName": "Johnson",
+      "age": 29,
+      "gender": "female",
+      "email": "emily.johnson@x.dummyjson.com",
+      "phone": "+81 965-431-3024",
+      "image": "https://dummyjson.com/icon/emilys/128",
+      "bloodGroup": "O-",
+      "height": 193.24,
+      "weight": 63.16,
+      "hair": {
+        "color": "Brown",
+        "type": "Curly"
+      }
+    },
+    {
+      "id": "3",
+      "firstName": "Rawan",
+      "lastName": "Ibrahem",
+      "age": 23,
+      "gender": "female",
+      "email": "Rawan.brown@x.dummyjson.com",
+      "phone": "+81 210-652-2785",
+      "image": "https://dummyjson.com/icon/emmaj/128",
+      "bloodGroup": "O-",
+      "height": 177.72,
+      "weight": 52.6,
+      "hair": {
+        "color": "brown",
+        "type": "Wavy"
+      }
+    },
+    {
+      "id": "4",
+      "firstName": "James",
+      "lastName": "David",
+      "age": 20,
+      "gender": "male",
+      "email": "james.davis@x.dummyjson.com",
+      "phone": "+49 614-958-9364",
+      "image": "https://dummyjson.com/icon/jamesd/128",
+      "bloodGroup": "AB+",
+      "height": 193.31,
+      "weight": 62.1,
+      "hair": {
+        "color": "Blonde",
+        "type": "Straight"
+      }
+    },
+    {
+      "id": "5",
+      "firstName": "Emma",
+      "lastName": "Miller",
+      "age": 31,
+      "gender": "female",
+      "email": "emma.miller@x.dummyjson.com",
+      "phone": "+91 759-776-1614",
+      "image": "https://dummyjson.com/icon/emmaj/128",
+      "bloodGroup": "AB-",
+      "height": 192.8,
+      "weight": 63.62,
+      "hair": {
+        "color": "White",
+        "type": "Straight"
+      }
+    },
+    {
+      "id": "2",
+      "firstName": "Michael",
+      "lastName": "Williams",
+      "age": 36,
+      "gender": "male",
+      "email": "michael.william@x.dummyjson.com",
+      "phone": "+49 258-627-6644",
+      "image": "https://dummyjson.com/icon/michaelw/128",
+      "bloodGroup": "B+",
+      "height": 186.22,
+      "weight": 76.32,
+      "hair": {
+        "color": "Green",
+        "type": "Straight"
+      }
+    },
+    {
+      "id": "6",
+      "firstName": "Sarah",
+      "lastName": "Wilson",
+      "age": 23,
+      "gender": "female",
+      "email": "olivia.wilson@x.dummyjson.com",
+      "phone": "+91 607-295-6448",
+      "image": "https://dummyjson.com/icon/oliviaw/128",
+      "bloodGroup": "B+",
+      "height": 182.61,
+      "weight": 58,
+      "hair": {
+        "color": "Gray",
+        "type": "Curly"
+      }
+    },
+    {
+      "id": "7",
+      "firstName": "Alexander",
+      "lastName": "Jones",
+      "age": 39,
+      "gender": "male",
+      "email": "alexander.jones@x.dummyjson.com",
+      "phone": "+61 260-824-4986",
+      "image": "https://dummyjson.com/icon/alexanderj/128",
+      "bloodGroup": "AB-",
+      "height": 153.89,
+      "weight": 77.42,
+      "hair": {
+        "color": "White",
+        "type": "Straight"
+      }
+    },
+    {
+      "firstName": "Renad",
+      "lastName": "Ibrahem",
+      "image": "https://dummyjson.com/icon/emmaj/128",
+      "age": 24,
+      "gender": "female",
+      "email": "11410120210496@stud.cu.edu.eg",
+      "phone": "1210850184",
+      "weight": 50,
+      "height": 160,
+      "bloodGroup": "B+",
+      "hair": {
+        "color": "brown",
+        "type": "Straight"
+      },
+      "id": "0BSHzcdQqEI"
+    },
+    {
+      "firstName": "Renad",
+      "lastName": "Ibrahem",
+      "image": "https://dummyjson.com/icon/emmaj/128",
+      "age": 33,
+      "gender": "female",
+      "email": "ibrahemrenad00@gmail.com",
+      "phone": "01210850184",
+      "weight": 50,
+      "height": 150,
+      "bloodGroup": "B+",
+      "hair": {
+        "color": "brown",
+        "type": "Straight"
+      },
+      "id": "EYhxWNmSyDo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
