@@ -21,12 +21,27 @@
       <p class="mb-3">Weight : {{ user.weight }}</p>
       <p class="mb-3">Hair Color : {{ user.hair.color }}</p>
       <p class="mb-3">Hair Type : {{ user.hair.type }}</p>
+
+      <div class="flex gap-2">
+        <router-link
+          :to="`editUser/${user.id}`"
+          class="inline-flex flex-1 justify-center items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-900 cursor-pointer"
+        >
+          Edit User
+        </router-link>
+        <button
+          @click="deleteUser(user.id)"
+          class="inline-flex flex-1 justify-center items-center px-3 py-2 text-sm font-medium text-center bg-red-700 text-white hover:bg-red-900 rounded-lg cursor-pointer"
+        >
+          Delete User
+        </button>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import { getUserByID } from "../services/userServices";
+import { delUser, getUserByID } from "../services/userServices";
 
 export default {
   name: "userDetails",
@@ -35,6 +50,16 @@ export default {
       userId: "",
       user: {},
     };
+  },
+  methods: {
+    async deleteUser(id) {
+      try {
+        await delUser(id);
+        this.$router.push("/users");
+      } catch (err) {
+        console.log(err);
+      }
+    },
   },
   async created() {
     this.userId = this.$route.params.id;

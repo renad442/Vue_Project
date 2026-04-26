@@ -6,7 +6,7 @@
       "lastName": "Johnson",
       "age": 29,
       "gender": "female",
-      "email": "emily.johnson@x.dummyjson.com",
+      "email": "batool.johnson@x.dummyjson.com",
       "phone": "+81 965-431-3024",
       "image": "https://dummyjson.com/icon/emilys/128",
       "bloodGroup": "O-",
@@ -21,7 +21,7 @@
       "id": "3",
       "firstName": "Rawan",
       "lastName": "Ibrahem",
-      "age": 44,
+      "age": 23,
       "gender": "female",
       "email": "Rawan.brown@x.dummyjson.com",
       "phone": "+81 210-652-2785",
@@ -36,7 +36,7 @@
     },
     {
       "id": "4",
-      "firstName": "James",
+      "firstName": "Ali",
       "lastName": "David",
       "age": 20,
       "gender": "male",
@@ -48,23 +48,6 @@
       "weight": 62.1,
       "hair": {
         "color": "Blonde",
-        "type": "Straight"
-      }
-    },
-    {
-      "id": "5",
-      "firstName": "Emma",
-      "lastName": "Miller",
-      "age": 31,
-      "gender": "female",
-      "email": "emma.miller@x.dummyjson.com",
-      "phone": "+91 759-776-1614",
-      "image": "https://dummyjson.com/icon/emmaj/128",
-      "bloodGroup": "AB-",
-      "height": 192.8,
-      "weight": 63.62,
-      "hair": {
-        "color": "White",
         "type": "Straight"
       }
     },
@@ -137,21 +120,21 @@
       "id": "0BSHzcdQqEI"
     },
     {
-      "firstName": "Renad",
-      "lastName": "Ibrahem",
-      "image": "https://dummyjson.com/icon/emmaj/128",
-      "age": 33,
+      "firstName": "Rana",
+      "lastName": "Omar",
+      "image": "https://dummyjson.com/icon/jamesd/128",
+      "age": 22,
       "gender": "female",
       "email": "ibrahemrenad00@gmail.com",
-      "phone": "01210850184",
+      "phone": "1210850184",
       "weight": 50,
-      "height": 150,
+      "height": 160,
       "bloodGroup": "B+",
       "hair": {
         "color": "brown",
         "type": "Straight"
       },
-      "id": "EYhxWNmSyDo"
+      "id": "eB17aNKqwE0"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

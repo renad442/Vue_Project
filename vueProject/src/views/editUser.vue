@@ -226,7 +226,7 @@
 </template>
 
 <script>
-import { addUser, editUser, getUserByID } from "../services/userServices";
+import { editUser, getUserByID } from "../services/userServices";
 
 export default {
   name: "editUser",

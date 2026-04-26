@@ -41,22 +41,25 @@
         }}
       </p>
     </div>
-    <div v-else class="grid grid-cols-4 gap-4 justify-center m-10">
+    <div
+      v-else
+      class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center m-10"
+    >
       <div
         v-for="user in filteredUsers"
         :key="user.id"
-        class="max-w-sm border bg-white/4 border-white/12 rounded-lg shadow-sm"
+        class="max-w-sm min-w-0 border bg-white/4 border-white/12 rounded-lg shadow-sm"
       >
         <img :src="user.image" alt="" />
 
-        <div class="p-5">
+        <div class="p-5 min-w-0">
           <h5 class="mb-2 text-2xl font-bold text-white">
             {{ user.firstName }} {{ user.lastName }}
           </h5>
           <p class="mb-3 text-gray-300">ID : {{ user.id }}</p>
-          <p class="mb-3 text-gray-300">Email : {{ user.email }}</p>
+          <p class="mb-3 text-gray-300 break-words">Email : {{ user.email }}</p>
           <p class="mb-3 text-gray-300">Gender : {{ user.gender }}</p>
-          <div class="flex gap-2 flex-wrap justify-between">
+          <div class="flex flex-wrap gap-2">
             <router-link
               :to="`/users/${user.id}`"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-purple-900 rounded-lg hover:bg-purple-950 cursor-pointer"
