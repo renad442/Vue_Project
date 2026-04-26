@@ -5,7 +5,7 @@
     <div class="relative isolate px-6 pt-14 lg:px-8">
       <div
         aria-hidden="true"
-        class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        class="absolute inset-x-0 -top-40 -z-10 pointer-events-none transform-gpu overflow-hidden blur-3xl sm:-top-80"
       >
         <div
           style="
@@ -71,7 +71,7 @@
       </div>
       <div
         aria-hidden="true"
-        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 pointer-events-none transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
       >
         <div
           style="

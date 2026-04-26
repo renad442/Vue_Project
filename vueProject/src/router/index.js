@@ -11,8 +11,8 @@ const routes = [
   { path: "/", component: Home },
   { path: "/users", component: Users },
   { path: "/addUser", component: AddUser },
-  { path: "/users/:id", component: UserDetails },
   { path: "/users/editUser/:id", component: EditUser },
+  { path: "/users/:id", component: UserDetails },
   {
     path: "/:pathMatch(.*)*",
     component: NotFound,
