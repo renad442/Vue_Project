@@ -17,6 +17,7 @@
               name="first-name"
               v-model="formValues.firstName"
               placeholder="Enter your first name"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -33,6 +34,7 @@
               name="last-name"
               v-model="formValues.lastName"
               placeholder="Last Name"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -49,6 +51,7 @@
               name="email"
               v-model="formValues.email"
               placeholder="Email"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -65,6 +68,7 @@
               name="phone"
               v-model="formValues.phone"
               placeholder="phone Number"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -76,6 +80,7 @@
           >
           <div class="mt-2 grid grid-cols-1">
             <select
+              required
               id="gender"
               name="gender"
               v-model="formValues.gender"
@@ -111,6 +116,7 @@
               name="age"
               v-model="formValues.age"
               placeholder="Age"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -127,6 +133,7 @@
               name="image"
               v-model="formValues.image"
               placeholder="Enter your photo as link"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -144,6 +151,7 @@
               name="weight"
               v-model="formValues.weight"
               placeholder="Enter your weight"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -161,6 +169,7 @@
               name="height"
               v-model="formValues.height"
               placeholder="Enter your height"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -177,6 +186,7 @@
               name="blood"
               v-model="formValues.bloodGroup"
               placeholder="Enter your blood groub"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -193,6 +203,7 @@
               name="hairColor"
               v-model="formValues.hair.color"
               placeholder="Enter your hair color"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
@@ -209,6 +220,7 @@
               name="hairType"
               v-model="formValues.hair.type"
               placeholder="Enter your hair type"
+              required
               class="block w-full rounded-md px-3 py-1.5 outline-1 -outline-offset-1 focus:-outline-offset-2 sm:text-sm/6 bg-white/5 text-white outline-white/10 placeholder:text-gray-400 focus:outline-purple-900"
             />
           </div>
