@@ -249,7 +249,7 @@ export default {
     async handleEdit() {
       try {
         await editUser(this.userId, this.user);
-        this.$router.push("/users");
+        this.$router.push(`/users/${this.user.id}`);
       } catch (err) {
         console.log(err);
       }

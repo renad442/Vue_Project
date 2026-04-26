@@ -20,15 +20,15 @@
     {
       "id": "3",
       "firstName": "Rawan",
-      "lastName": "Ibrahem",
+      "lastName": "Islam",
       "age": 23,
       "gender": "female",
-      "email": "Rawan.brown@x.dummyjson.com",
+      "email": "Rawan.Hassan@x.dummyjson.com",
       "phone": "+81 210-652-2785",
       "image": "https://dummyjson.com/icon/emmaj/128",
       "bloodGroup": "O-",
       "height": 177.72,
-      "weight": 52.6,
+      "weight": 60,
       "hair": {
         "color": "brown",
         "type": "Wavy"
